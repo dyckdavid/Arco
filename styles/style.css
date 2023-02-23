@@ -1,0 +1,267 @@
+body {
+    background-image: url('../images/background__arco.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+.title__home__page {
+    font-size: 40px;
+    color: red;
+    padding-left: 30px;
+}
+
+.logo__image {
+    width: 20%;
+    height: auto;
+}
+
+.tienda__button__home__page {
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid rgb(1, 1, 171);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 30px;
+    transition: .2s;
+    color: white;
+}
+
+.tienda__button__home__page:hover {
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+    border: 1.8px solid rgb(1, 1, 171);
+    border-radius: 10px;
+    height: 45px;
+    font-size: 35px;
+    transition: .2s;
+    color: rgb(18, 132, 255);
+}
+
+.about__us__home__page {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    max-width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: .3s;
+}
+
+.about__us__home__page:hover {
+  max-width: 41%;
+  transition: .3s;
+  height: 10%;
+  font-size: 21.9px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(164, 164, 164);
+}
+
+.leer__mas__home__page {
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid rgb(1, 1, 171);
+    border-radius: 10px;
+    height: 35px;
+    font-size: 25px;
+    transition: .2s;
+    margin-bottom: 1px;
+    margin-top: 13px;
+    color: white;
+}
+
+.image__home__screen {
+    margin-left: 50%;
+    margin-right: 180px;
+    margin-top: -150px;
+    position: absolute;
+    width: 48%;
+    height: auto;
+    transition: .5s;
+}
+
+.image__home__screen:hover {
+  width: 50%;
+  height: auto;
+  transition: .5s;
+  margin-left: 49%;
+  margin-top: -160px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    padding-bottom: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    transition: 2s;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 100px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    transition: 2s;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .title__home__page {
+        font-size: 25px;
+        color: red;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .leer__mas__home__page {
+        text-align: center;
+        cursor: pointer;
+        background-color: blue;
+        border: 1px solid rgb(1, 1, 171);
+        border-radius: 10px;
+        height: 35px;
+        font-size: 25px;
+        transition: .2s;
+        margin-bottom: 5px;
+    }
+
+    .about__us__home__page {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        color: black;
+        max-width: 85%;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .about__us__home__page:hover {
+      padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        color: black;
+        max-width: 85%;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+    .image__home__screen {
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 10%;
+
+    }
+
+    .image__home__screen:hover {
+      cursor: pointer;
+        width: 110%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 5%;
+
+    }
+    
+  }
+
+  .contact__us__div {
+    position: relative;
+    margin-top: 8%;
+  }
+
+.contactus__title__homepage {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 30px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 9px 13px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
