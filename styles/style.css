@@ -31,13 +31,10 @@ body {
 .tienda__button__home__page:hover {
     text-align: center;
     cursor: pointer;
-    background-color: blue;
-    border: 1.8px solid rgb(1, 1, 171);
-    border-radius: 10px;
-    height: 45px;
-    font-size: 35px;
+
+    font-size: 30px;
     transition: .2s;
-    color: rgb(18, 132, 255);
+
 }
 
 .about__us__home__page {
@@ -82,7 +79,7 @@ body {
 .image__home__screen {
     margin-left: 50%;
     margin-right: 180px;
-    margin-top: -150px;
+    margin-top: -120px;
     position: absolute;
     width: 48%;
     height: auto;
@@ -94,7 +91,7 @@ body {
   height: auto;
   transition: .5s;
   margin-left: 49%;
-  margin-top: -160px;
+  margin-top: -120px;
 }
 
 /* The Modal (background) */
